@@ -6,8 +6,21 @@ const customTheme = extendTheme({
     secondary: "#00A8CC",
     darkCOlor: "#21243D",
     lightColor: "#8695A4",
+    whiteColor: " #FFFFFF",
   },
-  components: {},
+  components: {
+    Button: {
+      variants: {
+        solid: {
+          backgroundColor: "primary",
+          color: "whiteColor",
+        },
+        ghost: {
+          color: "secondary",
+        },
+      },
+    },
+  },
 });
 
 export default customTheme;
