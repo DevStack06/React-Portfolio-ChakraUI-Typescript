@@ -4,7 +4,7 @@ const customTheme = extendTheme({
   colors: {
     primary: "#FF6464",
     secondary: "#00A8CC",
-    darkCOlor: "#21243D",
+    darkColor: "#21243D",
     lightColor: "#8695A4",
     whiteColor: " #FFFFFF",
   },
