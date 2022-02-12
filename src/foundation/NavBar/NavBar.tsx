@@ -1,9 +1,10 @@
 import { Box, Button, Flex, Heading, Spacer } from "@chakra-ui/react";
 import React from "react";
+import { ColorModeSwitcher } from "../../ColorModeSwitcher";
 
 export default function NavBar() {
   return (
-    <Flex w="100%" p="20px">
+    <Flex w="100%" p="20px" mb="40px">
       <Box p="2">
         <Heading size="md">Chakra</Heading>
       </Box>
@@ -13,6 +14,7 @@ export default function NavBar() {
           Charchter
         </Button>
         <Button colorScheme="teal">Episode</Button>
+        <ColorModeSwitcher justifySelf="flex-end" />
       </Box>
     </Flex>
   );

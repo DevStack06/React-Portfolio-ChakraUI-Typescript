@@ -9,6 +9,7 @@ const customTheme = extendTheme({
     whiteColor: " #FFFFFF",
     backgroundColor: "#E5E5E5",
     backgroundColor2: "#EDF7FA",
+    tagColor: "#142850",
   },
   components: {
     Button: {
@@ -72,6 +73,12 @@ const customTheme = extendTheme({
         "6": {
           fontSize: "20px",
           lineHeight: "29.38px",
+          color: "darkColor",
+        },
+        "7": {
+          fontSize: "16px",
+          fontWeight: 400,
+          lineHeight: "23.5px",
           color: "darkColor",
         },
       },

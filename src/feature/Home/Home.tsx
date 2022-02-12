@@ -3,6 +3,7 @@ import React from "react";
 import { Spacing } from "../../foundation/theme/Spacing";
 import Post from "./Components/Post/Post";
 import Introduction from "./Components/Introduction/Introduction";
+import Work from "../../foundation/Work/Work";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Introduction />
       <Box h={Spacing.x5} />
       <Post />
+      <Work />
     </VStack>
   );
 }
