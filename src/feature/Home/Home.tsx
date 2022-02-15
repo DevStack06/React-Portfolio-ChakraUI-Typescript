@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <VStack>
       <Introduction />
-      <Box h={Spacing.x5} />
+      <Box h={Spacing.x7} />
       <Post />
       <Work />
     </VStack>

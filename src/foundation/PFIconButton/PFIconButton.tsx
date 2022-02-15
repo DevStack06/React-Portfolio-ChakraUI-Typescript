@@ -1,5 +1,6 @@
 import { IconButton } from "@chakra-ui/button";
 import React from "react";
+import { Spacing } from "../theme/Spacing";
 
 type PFIconButtonProps = {
   icon: React.ReactElement;
@@ -19,10 +20,8 @@ export default function PFIconButton({
       icon={icon}
       size="lg"
       onClick={onClick}
-      sx={{
-        width: "30px",
-        height: "30px",
-      }}
+      ml={Spacing.x1p5}
+      fontSize="28px"
       aria-label={ariaLabel}
     />
   );

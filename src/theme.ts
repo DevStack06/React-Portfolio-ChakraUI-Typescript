@@ -21,6 +21,11 @@ const customTheme = extendTheme({
         ghost: {
           color: "secondary",
         },
+        navBar: {
+          color: "darkColor",
+          fontSize: "18px",
+          lineHeight: "29px",
+        },
       },
     },
     Heading: {

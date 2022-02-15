@@ -1,4 +1,4 @@
-import { Box, Flex, VStack } from "@chakra-ui/react";
+import { Box, Flex } from "@chakra-ui/react";
 import React from "react";
 import { PFButton, PFParagraph } from "../../../../foundation";
 import { Spacing } from "../../../../foundation/theme/Spacing";
@@ -17,9 +17,9 @@ export default function Post() {
       bg="backgroundColor2"
       sx={styles.containerPadding}
     >
-      <VStack>
-        <Flex justifyContent="space-between" width="100%">
-          <PFParagraph variant="2" text="Recent posts" />
+      <Flex flexDirection="column">
+        <Flex justifyContent="space-between">
+          <PFParagraph variant="2" text="Recent Youtube Series" />
           <PFButton
             variant="ghost"
             stylesProps={{
@@ -30,11 +30,11 @@ export default function Post() {
             View all
           </PFButton>
         </Flex>
-        <Flex justifyContent="space-between" width="100%">
+        <Flex justifyContent="space-between" width="100%" flexWrap="wrap">
           <PostItem />
           <PostItem />
         </Flex>
-      </VStack>
+      </Flex>
     </Box>
   );
 }
